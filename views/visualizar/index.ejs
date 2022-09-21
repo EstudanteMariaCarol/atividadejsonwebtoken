@@ -9,9 +9,9 @@
 </head>
 <body>
     <% usuarios.forEach(function(usuario){ %>
-        <div style="border: 1px solid black ; width: 200px;">
-        <%= usuario.nome %>
-        <%= usuario.senha %>
+        <div style="border: 1px solid black ; width: 200px;border-radius: 5px;margin: 2px;padding: 2px;">
+        Nome: <%= usuario.nome %>
+        Senha: <%= usuario.senha %>
     </div>
     <% }) %>
 </body>
